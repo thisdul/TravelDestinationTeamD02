@@ -1,0 +1,90 @@
+
+
+/* untuk Tablet */
+@media all and (max-width: 1000px) {
+  .content {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .konten h1{
+    font-size: 32px;
+  }
+  .footer-center img {
+    display: none;
+  }
+
+}
+
+/* untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  header {
+    text-align: left;
+  }
+
+  .logo {
+    width: 250px;
+    padding-top: 4px;
+  }
+  
+  .header-right {
+    display: none;
+  }  
+  .menu-icon {
+    display: block;
+  }  
+
+   .footer li {
+    text-align: left;
+    font-size: 15px; 
+    width:100%;
+      
+  }
+  
+  .kotak-login{
+    width: 100%;
+  }  
+
+  .konten h1{
+    font-size: 24px;
+  }
+  .heading h2{
+    font-size: 20px;
+  }
+
+  .cari{
+    width: 25%;
+    padding-right: 10px;
+  }
+
+  .message-wrapper{
+    padding-bottom: 20px;
+  }
+  
+  .review{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .dua{
+    display: none;
+  }
+
+  .tiga{
+    display: none;
+  }
+
+  .footer-center img {
+    display: none;
+  }
+
+  .footer-list {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+}

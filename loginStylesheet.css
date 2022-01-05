@@ -1,0 +1,147 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+  font-family: "Lucida Grande";
+  background-color: rgba(228, 225, 219, 0.096);
+}
+.container {
+  width: 100%;
+  
+}
+header {
+  height: 80px;
+  width: 100%;
+  background-color:rgb(106, 168, 168, 0.9);
+  position: fixed;
+  z-index: 8;
+  top: 0;
+}
+
+.logo {
+  width: 300px;
+  margin-top: 3px;
+}
+
+.header-left {
+  float: left;
+  padding-left: 15px;
+}
+
+.judul{
+  text-align: center;
+  font-weight: 200;
+  padding-bottom: 50px;
+  color: black;
+}
+
+
+.kotak-login{
+  width: 350px;
+  background-color: whitesmoke;
+  margin: 160px auto;
+  padding: 30px 20px;
+}
+
+.form-login{
+  width: 100%;
+  padding: 10px;
+  font-size: 11px;
+  margin-bottom: 20px
+}
+
+label{
+  font-size: 11px;
+  color: black;
+}
+
+.tbl-login{
+  width: 100%;
+  background-color: #5dca88;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow:  0 4px #1a7940;
+  border-radius: 4px;
+}
+
+.tbl-login:active{
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+
+
+.footer {
+  height: 250px;
+  padding:40px 40px;
+  background-color:#2f5167;
+  color: #ffff;
+  bottom: 0;
+ }
+ 
+ 
+.footer-logo {
+  /*font-size:32px;*/
+  float:left;
+  margin-bottom: 5px;
+   
+
+}
+
+.footer-logo img {
+  width: 300px;
+  float: left;
+  padding-left: 50px;
+  
+
+}
+
+.footer-logo li {
+  font-size:15px;
+  list-style: none;
+  padding-left: 110px;
+  padding-bottom: 7px; 
+
+}
+
+  
+.footer-list {
+  float: right;
+  margin-bottom: 5px;
+  padding-right: 75px;
+  padding-top: 15px;
+  text-align: right;
+  font-size:20px;
+ 
+}
+ 
+.footer-list li {
+   list-style: none;
+  font-size:15px;
+  text-align: left; 
+  padding-top: 6px;
+  
+}
+
+.footer-center img {
+  width : 400px;
+  padding-right: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+

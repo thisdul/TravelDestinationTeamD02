@@ -1,0 +1,261 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;  
+}
+
+
+body {
+  font-family: "Lucida Grande";  
+}
+
+a {
+  text-decoration: none;
+}
+
+.konten{
+  width: 80%;
+  height: 290px;
+  background-color: rgba(34, 49, 52, 0.5);
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.konten h1{
+  font-size: 45x;
+  padding: 80px 20px;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: left;
+}
+
+
+.fa{
+  margin-right: 5px; 
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color:rgb(106, 168, 168, 0.9);
+  position: fixed;
+  z-index: 8; 
+}
+
+.logo {
+  width: 300px;
+  margin-top: 3px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;  
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 21px;  
+  display: none;  
+}
+
+.header-right a {
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
+  float: left;
+  transition: all 0.5s;
+  display: block;
+  line-height: 80px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);;
+}
+
+.top-wrapper {
+  padding: 200px 0 200px 0;
+  background-image: url(https://images.alphacoders.com/674/674925.png);
+  background-size: cover;
+}
+
+.content-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+}
+
+.heading {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #000000;
+}
+
+.content {
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;  
+}
+
+.border-box {
+    border: 5px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.content-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.text-content {
+    padding: 40px 15px;
+    line-height: 30px;
+}
+
+input {
+    float: right;
+    margin-top: -25px;
+    height: 30px;
+}
+
+.heading h2{
+  margin-top: 60px;
+}
+.message-wrapper{
+  padding-bottom: 45px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.review{
+  border: 2px solid #000000;
+  width: 25%;
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-right: 40px;
+  float: left;
+}
+
+.review h4{
+  font-weight: 600;
+  padding-bottom: 50px;
+  color: #2f5167
+}
+
+.komen{
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.review p{
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.footer {
+  height: 250px;
+  padding:40px 40px;
+  margin-top: 45%;
+  background-color:#2f5167;
+  color: #ffff;
+ }
+ 
+ 
+.footer-logo {
+  /*font-size:32px;*/
+  float:left;
+  margin-bottom: 5px;   
+}
+
+.footer-logo img {
+  width: 300px;
+  float: left;
+  padding-left: 50px; 
+}
+
+.footer-logo li {
+  font-size:15px;
+  list-style: none;
+  padding-left: 110px;
+  padding-bottom: 7px;
+}
+
+  
+.footer-list {
+  float: right;
+  margin-bottom: 5px;
+  padding-right: 75px;
+  padding-top: 15px;
+  text-align: right;
+  font-size:20px; 
+}
+ 
+.footer-list li {
+   list-style: none;
+  font-size:15px;
+  text-align: left; 
+  padding-top: 6px;  
+}
+
+.footer-center img {
+  width : 400px;
+  padding-right: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+//coy warna buat button daftar warna apa bagusnya?
+// pink wkwkwk
+//cocok wkwkw
+//warna .... hijau keknya
+
+//img nya kok gak masuk ke area yg biru itu ya
+//mangat mangat
+//jgn lupa sambil ngopi 
+//kecilin tuh font nya bagian footer, sesuaikan
+//wonderful indonesianya susah di posisiin wkwk
+
+//wkwk ribet banget buka tab desain sama tab koding, harus butuh dua monitor nih biar cepet daripada buka tutup buka tutup  wkwk
